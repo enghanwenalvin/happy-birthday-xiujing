@@ -1,0 +1,164 @@
+/* tags */
+
+body {
+  font-family: "Montserrat";
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+p {
+  color: #8F8F8F;
+  font-size: 1rem;
+}
+
+
+/* ****************************************************************************** */
+/* classes */
+
+.carousel-indicators {
+  top: 90%;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.container-fluid {
+  padding: 3% 12% 5%;
+}
+
+.fa-instagram {
+  color: transparent;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+.fa-facebook {
+  color: #3b5998;
+  background-image: linear-gradient( to bottom, transparent 20%, white 20%, white 93%, transparent 93% );
+  background-size: 55%;
+  background-position: 70% 0;
+  background-repeat: no-repeat;
+}
+
+.fa-envelope {
+  color: #ffc0cb;
+}
+
+
+.header-splash-page {
+  color: #dda0dd;
+  font-size: 2.5rem;
+}
+
+.happy-birthday{
+  color: #dda0dd;
+  font-size: 4rem;
+}
+
+.header-testimonials {
+  color: #fff;
+  font-size: 2.5rem;
+}
+
+.icon {
+  color: #ffc0cb;
+  margin-bottom: 1rem;
+}
+
+.icon:hover{
+  color: #dda0dd;
+}
+
+.img-testimonial {
+  border-radius: 20%;
+  margin: 20px;
+  width: 25%;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.navbar-light .navbar-brand {
+  color: #dda0dd;
+}
+
+.nav-item {
+  padding: 0 10px;
+}
+
+.nav-link {
+  font-family: "Montserrat";
+  font-weight: 300;
+  font-size: 1.1rem;
+  text-align: center;
+}
+
+.splash-page {
+  margin-top: 3%;
+}
+
+.social-icon {
+  margin: 20px 20px;
+}
+
+.title-image {
+  /* transform: rotate(15deg); */
+  width: 70%;
+  padding: 0% 0 0 15%;
+  border-radius: 5%;
+}
+
+/* ****************************************************************************** */
+/* ID */
+
+/* Section 1 */
+#splash-page {
+  background-color: #F6E8FF;
+  color: white;
+}
+
+/* Section 3 */
+#wishes {
+  background-color: #ffc0cb;
+  color: #fff;
+  text-align: center;
+}
+
+
+/* Section 7 */
+#footer {
+  padding: 7% 15%;
+  text-align: center;
+}
+
+/* media queries */
+@media (max-width: 992px){
+  #splash-page {
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  .title-image {
+    /* transform: rotate(15deg); */
+    width: 60%;
+    padding: 5% 0 0 0;
+  }
+
+}
