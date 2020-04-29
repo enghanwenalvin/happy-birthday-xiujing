@@ -82,6 +82,15 @@ p {
   width: 25%;
 }
 
+.music-box {
+  margin-left: 20px;
+  color: #dda0dd;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 1.5rem;
+  border-color: #dda0dd;
+}
+
 .navbar {
   padding: 0 0 4.5rem;
 }
